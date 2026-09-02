@@ -8,7 +8,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="p-3 lg:p-6">
+<body class="flex min-h-screen flex-col p-3 lg:p-6">
   <header class="mx-2 mb-2 text-center md:flex md:justify-between md:text-start">
     <div>
       <h1 class="text-3xl md:text-5xl">MICHAEL ZEWDU SHIFERAW</h1>
@@ -46,8 +46,9 @@
 
   <hr />
 
-  <div class="my-2 grid-cols-2 gap-4 lg:grid">
-    <div class="m-2">
+  <main class="flex-1">
+    <div class="my-2 grid-cols-2 gap-4 lg:grid">
+      <div class="m-2">
 
       <h3 class="text-2xl font-semibold">Summary</h3>
       <p>
@@ -328,20 +329,21 @@
         <ul class="list-disc ps-5">
           <li>Worked on an app using flutter that connects vehicle owners with nearby garages for different vehicle maintenance services</li>
         </ul>  -->
+      </div>
+      
     </div>
-    
-  </div>
 
-  <div class="m-2">
-    <div class="m-2"></div>
+    <div class="m-2">
+      <div class="m-2"></div>
 
-    <!-- <div class="m-2">
-            <h3 class="text-2xl font-semibold">Interests</h3>
-            <p>Search Engine Optimization(SEO) • Digital Marketing • Video Editing • Data Science • UI/UX</p>
-        </div> -->
-  </div>
+      <!-- <div class="m-2">
+              <h3 class="text-2xl font-semibold">Interests</h3>
+              <p>Search Engine Optimization(SEO) • Digital Marketing • Video Editing • Data Science • UI/UX</p>
+          </div> -->
+    </div>
+  </main>
 
-  <footer class="bottom-0 m-2 w-full text-center 2xl:absolute">
+  <footer class="mt-6 w-full text-center">
     <hr />
     <p class="font-thin">+251704065000</p>
     <p>© <span id="year"></span></p>
